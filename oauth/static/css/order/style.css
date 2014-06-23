@@ -1,0 +1,227 @@
+#supplierFieldset, #receiverFieldset,#distributeFieldset
+{
+	margin-top:2em;
+
+}
+
+#supplierFieldset label,
+#receiverFieldset label,
+#distributeFieldset label
+{
+	font-size:1em;
+	margin-top:1em;
+}
+
+#orderNextButton
+{
+	margin-top:2em;
+}
+
+
+
+#deliverFee .groupFullWidthStyle .ui-controlgroup-controls
+{
+    display: block !important;
+    width: 100% !important;
+}
+
+#deliverFee .groupFullWidthStyle .ui-controlgroup-controls a
+{
+    display: inline !important;
+    padding:16px 0;
+    border-width: 1%;
+}
+
+#deliverFee .groupFullWidthStyle .ui-controlgroup-controls .left-button
+{
+
+    width:25% !important;
+}
+#deliverFee .groupFullWidthStyle .ui-controlgroup-controls .right-button
+{
+    width:25% !important;
+}
+#deliverFee .groupFullWidthStyle .ui-controlgroup-controls .middle-button
+{
+    width:48% !important;
+}
+
+
+/* add order */
+div.ValueUnitBox .controlgroup-textinput
+{
+    padding-top:.2em;
+    padding-bottom: .2em;
+    height:43px;
+    line-height:43px;
+}
+
+div.ValueUnitBox .unit
+{
+    font-size:.8em;
+    line-height: 33px;
+}
+
+input#orderValue, input#goodsWeight, #goodsCategory-button select#goodsCategory
+{
+    height:43px;
+    line-height: 43px;
+    padding:0;
+    min-height: 2.5em !important;
+}
+
+
+/* cancel order */
+#select_cancel_reason ul
+{
+    list-style: none;
+    -webkit-padding-start:0.2em;
+
+}
+
+#select_cancel_reason ul li
+{
+    height:35px;
+    line-height: 35px;
+    border-bottom: 1px solid #cccccc;
+}
+
+#select_cancel_reason ul li a
+{
+    display:block;
+    height:35px;
+    padding-left:.4em;
+}
+
+#select_cancel_reason a:hover
+{
+    background-color: #efefef;
+}
+
+#select_cancel_reason .ui-icon-selected
+{
+    float:right;
+    display:block;
+    background-image: url('/static/jm/images/icons-png/check-black.png');
+    width:14px;
+    height:14px;
+    margin-top:10px;
+    margin-right:5px;
+}
+
+
+
+/* order detail */
+div.ui-block
+{
+    margin-top:2em;
+}
+
+div.ui-block-title
+{
+    color:#333333 ;
+    font-size:1.2em;
+    margin-bottom: 1em;
+}
+
+div.ui-block-first
+{
+    margin-top:0;
+}
+
+p.ui-normal-row
+{
+    font-size: 1em;
+    color:#666666;
+    line-height: 1.4em;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+
+
+}
+
+span.ui-tips1
+{
+    background-color:#f1edff;
+    color : #a192d7;
+    font-size: 1em;
+    margin-left:0.5em;
+}
+
+span.floatRight
+{
+    float:right;
+}
+
+.block
+{
+    display:block;
+}
+
+.first 
+{
+    margin:0;
+}
+
+/* order list */
+#listNavStyle label.ui-btn
+{
+    padding:.7em .6em;
+}
+
+/* order home */
+div.t_title
+{
+    margin-bottom:4px;
+    font-size:1.4em;
+}
+
+.textarea
+{
+    margin: 2px 0px 0px 2px;
+    padding: 5px;
+    border-style: none;
+    border-width: 0px;
+    font-size: 14px;
+    font-family: Tahoma, 宋体;
+    word-wrap: break-word;
+    line-height: 18px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    outline: none;
+    background: transparent;
+    width: 544px;
+    height: 74px;
+    -webkit-appearance: none;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    flex-direction: column;
+    cursor: auto;
+    white-space: pre-wrap;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-writing-mode: horizontal-tb;
+}
+
+.active
+{
+    background:#0081E6;
+    color:#ffffff;
+    border-color: #ddd;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+.ui-big-circle-button
+{
+    -webkit-border-radius:3em;
+    border-radius:3em;
+    padding: 0;
+    width: 5.75em;
+    height: 5.75em;
+}

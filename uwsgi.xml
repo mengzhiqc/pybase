@@ -1,0 +1,11 @@
+<uwsgi>
+     <pythonpath>/var/www/pepsi</pythonpath> #网站根目录
+     <module>runserver</module>
+     <callable>app</callable> 
+     <plugins>python</plugins>
+     <socket>/tmp/uwsgi.sock</socket>
+     <pidfile>/tmp/uwsgi.pid</pidfile>
+     <master/>
+     <processes>5</processes>    
+     <memory-report/>
+</uwsgi>

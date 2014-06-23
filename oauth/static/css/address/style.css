@@ -1,0 +1,50 @@
+
+/* whole style */
+.ui-list ul
+{
+    list-style: none;
+    width:100%;
+    padding:0;
+}
+
+.ui-list li
+{
+    border:1px solid #006AC4;
+    margin-bottom: 20px;
+}
+
+.ui-list li .ui-inner-content
+{
+    margin:20px;
+
+}
+
+.ui-list li .ui-inner-link a
+{
+    display: block;
+    color:#fff;
+    background-color: #007BEC;
+    text-align: center;
+    line-height: 53px;    
+}
+
+.ui-list li .ui-inner-link a:hover
+{
+    opacity: 0.9
+    filter: alpha(opacity=90);
+}
+
+/* phone number group style */
+.ui-phone-group div.ui-input-text
+{
+    float:left;
+}
+.ui-phone-group div.ui-input-text + div
+{
+    margin-left:10px;
+}
+
+div.ui-submit
+{
+    margin-top:30px;
+}

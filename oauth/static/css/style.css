@@ -1,0 +1,251 @@
+html,div,p, a, input, select, span
+{
+    font-family: "arial, SimHei"
+}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a
+{
+    font-weight: normal;
+}
+
+div#content
+{
+	width:100%;
+    background-color:#fff;
+}
+
+#container, #header-container
+{
+    max-width:980px;
+    margin:0 auto;
+    background-color:#F9F9F9; 
+}
+
+a {
+    text-decoration: none;
+    color: #006AC4;
+}
+
+/* overwrite jquery mobile inpuit text style*/
+.ui-input-text input
+{
+    min-height: 3.5em;
+    font-size:1em;
+}
+
+.ui-custom-btn 
+{
+    display:block;
+    height:3.5em;
+    line-height: 3.5em;
+    text-align: center;
+    font-weight:normal;
+
+}
+
+a.ui-custom-btn1, a.ui-custom-btn1:hover, a.ui-custom-btn1:visited
+{
+      background-color: #0081E6;
+      color: #ffffff;
+      border: 1px solid #006AC4;
+}
+
+
+a.ui-custom-btn2, a.ui-custom-btn2:hover, a.ui-custom-btn2:visited
+{
+    background-color: #ffffff;
+    color: #006AC4;
+    border:1px solid #0081e6;
+    margin: 1em auto;
+
+}
+
+table.ui-nav
+{
+    width:100%;
+    height: 60px;    
+    
+}
+
+table.ui-nav .ui-left-nav-item, table.ui-nav .ui-middle-nav-item, table.ui-nav .ui-left-nav-item
+{
+    text-align: left;
+    vertical-align: middle;
+    padding:0;
+}
+
+table.ui-nav .ui-left-nav-item, table.ui-nav .ui-right-nav-item
+{
+    width:20%;
+}
+
+table.ui-nav .ui-middle-nav-item h3
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color:#333333;
+}
+
+table.ui-nav .ui-left-nav-item a
+{
+    margin-left:0px;
+    font-size:13px;
+}
+
+table.ui-nav .ui-right-nav-item a
+{
+    float:right;
+    margin-right:0px;
+    font-size:13px;
+}
+
+/* nav style1 */
+div.ui-custom-nav1
+{
+    width:100%;
+    height:3em;
+    line-height: 3em;
+    border:1px solid #0081E6;
+
+}
+
+ul.ui-nav-ul-list
+{
+    padding:0;
+    margin:0;
+
+}
+
+div.ui-custom-nav1 li
+{
+    list-style:none;
+    float:left;
+    width:25%;
+}
+
+div.ui-custom-nav1 li a
+{
+    text-align: center;
+    display:block;
+    width:100%;
+    border-right:1px solid #0081E6;
+}
+
+div.ui-custom-nav1 li a.last-item
+{
+    border-right:0;
+}
+
+
+
+div.ui-custom-nav1 li a:hover, div.ui-custom-nav1 li a.active
+{
+    background:#0081E6;
+    color:#ffffff;
+}
+
+
+/* 头部样式 */
+.ui-page-theme-a div.ui-bar-inherit.ui-header{
+    background-color: #f8f8f8;
+    height:60px;
+    line-height:60px;
+    border:0;
+}
+
+.ui-header .ui-title
+{
+    padding: 0;
+    margin: 0 30%;
+}
+
+div.ui-navMenu
+{
+    float:right;
+    display:inline;
+}
+
+.rightMenu
+{
+    margin-right:13px;
+    font-size:13px;
+}
+
+
+span.ui-left-menue
+{
+    float:left;
+    margin-left:0.5em;
+}
+
+
+
+
+#dataShowBox
+{
+    width:100%;
+    border:1px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+#dataShowBox td
+{
+    text-align:center;
+    margin:auto;
+}
+
+#dataShowBox td.c_decorate
+{
+    width:1px;
+    vertical-align: middle;
+}
+
+#dataShowBox td.c_decorate span.c_decorate_vertical_line
+{
+    display: block;
+    height:2.5em;
+    line-height:2.5em;
+    width:1px;
+    border-right:1px solid #eeeeee;
+}
+
+
+#dataShowBox p.t_process
+{
+    color:#bbbbbb;
+    -webkit-margin-after:.2em;
+
+}
+
+
+#dataShowBox p.b_process
+{
+    font-size:2em;
+    -webkit-margin-before:.2em;
+    -webkit-margin-after:.2em;
+
+}
+
+#dataShowBox td,#dataShowBox th
+{
+    border-left-width:1px;
+    border-right-width:1px;
+}
+
+p.center,div.center
+{
+    text-align: center;
+}
+
+div.clear
+{
+    clear :both;
+    height:1px;
+}
+
+div.alignCenter
+{
+    text-align:center;
+}
+
